@@ -25,6 +25,8 @@
     <script>
         const contents = document.querySelectorAll('p');
         const searchRegexp = /8-800-[0-9]{7}/g;
+        
+        /* номер телефона можно получать, например, по api с привязкой к ip */
         const repleaceRegexp = '<span>+7 (495) 111-22-33</span>';
 
         contents.forEach((item) => {
