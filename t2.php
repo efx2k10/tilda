@@ -42,7 +42,5 @@ $sumRow = getSum($arr);
 $sumCol = getSum($arr_trans);
 
 print_r($arr);
-print_r($arr_trans);
-
 print_r($sumRow);
 print_r($sumCol);
